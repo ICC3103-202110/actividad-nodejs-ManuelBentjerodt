@@ -7,3 +7,7 @@ function fibonacci(n){
     }
 }
 
+console.log("")
+const prompt = require("prompt-sync")();
+const n = prompt("Insert a positive number: ");
+console.log("F(%d) = %d\n",n,fibonacci(n));
